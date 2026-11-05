@@ -1,0 +1,102 @@
+{
+  "topic": "Photosynthesis",
+  "language": "en",
+  "sources": [
+    { "title": "Photosynthesis", "url": "https://en.wikipedia.org/wiki/Photosynthesis", "kind": "Wikipedia" },
+    { "title": "Chloroplast", "url": "https://en.wikipedia.org/wiki/Chloroplast", "kind": "Wikipedia" },
+    { "title": "Calvin cycle", "url": "https://en.wikipedia.org/wiki/Calvin_cycle", "kind": "Wikipedia" }
+  ],
+  "content": {
+    "summary": "Photosynthesis is how plants, algae and cyanobacteria turn light energy into chemical energy. Inside chloroplasts, chlorophyll captures light; the light-dependent reactions in the thylakoid membranes split water, release oxygen and make ATP and NADPH. The Calvin cycle in the stroma then uses that energy to fix carbon dioxide into sugars such as glucose.",
+    "concepts": [
+      { "term": "Photosynthesis", "definition": "The process by which plants, algae and some bacteria convert light energy into chemical energy stored in sugars.", "clue": "How plants turn light into food" },
+      { "term": "Chlorophyll", "definition": "Green pigment in chloroplasts that absorbs mainly blue and red light.", "clue": "Green light-absorbing pigment" },
+      { "term": "Chloroplast", "definition": "Organelle in plant and algal cells where photosynthesis takes place.", "clue": "Organelle where photosynthesis happens" },
+      { "term": "Stomata", "definition": "Tiny pores, mostly on the underside of leaves, that let carbon dioxide in and oxygen and water vapour out.", "clue": "Leaf pores for gas exchange" },
+      { "term": "Glucose", "definition": "Simple six-carbon sugar produced by photosynthesis and used for energy and as building material.", "clue": "Six-carbon sugar made by plants" },
+      { "term": "Carbon dioxide", "definition": "Gas taken from the air and fixed into sugars during photosynthesis.", "clue": "Gas plants absorb from the air" },
+      { "term": "Oxygen", "definition": "Gas released as a by-product when water molecules are split during photosynthesis.", "clue": "By-product gas released by plants" },
+      { "term": "Calvin cycle", "definition": "Light-independent reactions in the stroma that fix carbon dioxide into sugars using ATP and NADPH.", "clue": "Light-independent cycle that builds sugar" },
+      { "term": "Thylakoid", "definition": "Membrane-bound sac inside the chloroplast where the light-dependent reactions occur.", "clue": "Membrane sac stacked into grana" },
+      { "term": "Stroma", "definition": "Fluid surrounding the thylakoids inside a chloroplast, where the Calvin cycle takes place.", "clue": "Fluid around the thylakoids" },
+      { "term": "ATP", "definition": "Adenosine triphosphate, the energy-carrying molecule made in the light-dependent reactions.", "clue": "The cell's energy currency" },
+      { "term": "RuBisCO", "definition": "Enzyme that fixes carbon dioxide in the Calvin cycle; probably the most abundant protein on Earth.", "clue": "Carbon-fixing enzyme, very abundant" },
+      { "term": "Photolysis", "definition": "Splitting of water molecules by light energy, releasing oxygen, protons and electrons.", "clue": "Light-driven splitting of water" },
+      { "term": "NADPH", "definition": "Electron carrier produced in the light-dependent reactions and used to reduce carbon dioxide in the Calvin cycle.", "clue": "Electron carrier made in the light reactions" },
+      { "term": "Light-dependent reactions", "definition": "First stage of photosynthesis, in the thylakoid membranes, that captures light energy to make ATP and NADPH.", "clue": "First stage, needs light" },
+      { "term": "Transpiration", "definition": "Loss of water vapour from leaves through the stomata.", "clue": "Water vapour loss from leaves" }
+    ],
+    "facts": [
+      { "statement": "Photosynthesis releases oxygen as a by-product.", "isTrue": true, "explanation": "Oxygen is released when water is split in the light-dependent reactions.", "term": "Oxygen" },
+      { "statement": "The oxygen released by photosynthesis comes from carbon dioxide.", "isTrue": false, "explanation": "It comes from water molecules split by light (photolysis).", "term": "Photolysis" },
+      { "statement": "Leaves look green because chlorophyll reflects green light.", "isTrue": true, "explanation": "Chlorophyll absorbs blue and red light best and reflects green.", "term": "Chlorophyll" },
+      { "statement": "The Calvin cycle takes place in the thylakoid membranes.", "isTrue": false, "explanation": "The Calvin cycle happens in the stroma; the light reactions use the thylakoid membranes.", "term": "Calvin cycle" },
+      { "statement": "Stomata can close to reduce water loss.", "isTrue": true, "explanation": "Guard cells close the stomata when the plant needs to save water.", "term": "Stomata" },
+      { "statement": "Only plants can photosynthesize.", "isTrue": false, "explanation": "Algae and cyanobacteria photosynthesize too.", "term": "Photosynthesis" },
+      { "statement": "RuBisCO is thought to be the most abundant protein on Earth.", "isTrue": true, "explanation": "Plants need huge amounts of it because it works slowly.", "term": "RuBisCO" },
+      { "statement": "Glucose is made directly in the light-dependent reactions.", "isTrue": false, "explanation": "Sugars are built in the Calvin cycle, using ATP and NADPH from the light reactions.", "term": "Glucose" },
+      { "statement": "The light-dependent reactions produce ATP and NADPH.", "isTrue": true, "explanation": "Both carry energy to the Calvin cycle.", "term": "Light-dependent reactions" },
+      { "statement": "Plants take in oxygen through their stomata to build sugar.", "isTrue": false, "explanation": "They take in carbon dioxide to build sugar.", "term": "Carbon dioxide" },
+      { "statement": "Chloroplasts contain their own DNA.", "isTrue": true, "explanation": "Chloroplasts descend from ancient cyanobacteria and kept a small genome.", "term": "Chloroplast" },
+      { "statement": "Most photosynthesis in a plant happens in the roots.", "isTrue": false, "explanation": "It happens mostly in the leaves, where chloroplasts are concentrated.", "term": "Chloroplast" }
+    ],
+    "questions": [
+      { "question": "Where in the chloroplast does the Calvin cycle take place?", "answer": "Stroma", "distractors": ["Thylakoid membrane", "Cytoplasm", "Nucleus"], "explanation": "The Calvin cycle runs in the stroma, the fluid around the thylakoids.", "term": "Stroma" },
+      { "question": "Which gas do plants absorb for photosynthesis?", "answer": "Carbon dioxide", "distractors": ["Oxygen", "Nitrogen", "Hydrogen"], "explanation": "Carbon dioxide enters through the stomata and is fixed into sugars.", "term": "Carbon dioxide" },
+      { "question": "Where does the oxygen released during photosynthesis come from?", "answer": "Water", "distractors": ["Carbon dioxide", "Glucose", "Chlorophyll"], "explanation": "Light splits water molecules (photolysis), releasing oxygen.", "term": "Photolysis" },
+      { "question": "Which pigment gives leaves their green colour?", "answer": "Chlorophyll", "distractors": ["Carotene", "Melanin", "Hemoglobin"], "explanation": "Chlorophyll reflects green light.", "term": "Chlorophyll" },
+      { "question": "Which two molecules from the light reactions power the Calvin cycle?", "answer": "ATP and NADPH", "distractors": ["Glucose and oxygen", "Water and carbon dioxide", "DNA and RNA"], "explanation": "ATP supplies energy and NADPH supplies electrons.", "term": "ATP" },
+      { "question": "Which enzyme fixes carbon dioxide in the Calvin cycle?", "answer": "RuBisCO", "distractors": ["Amylase", "ATP synthase", "DNA polymerase"], "explanation": "RuBisCO attaches CO2 to a five-carbon sugar.", "term": "RuBisCO" },
+      { "question": "Which sugar appears in the overall equation of photosynthesis?", "answer": "Glucose", "distractors": ["Lactose", "Ribose", "Maltose"], "explanation": "6 CO2 + 6 H2O + light → C6H12O6 (glucose) + 6 O2.", "term": "Glucose" },
+      { "question": "Which colours of light does chlorophyll absorb best?", "answer": "Red and blue", "distractors": ["Green and yellow", "Only green", "Infrared"], "explanation": "Green light is mostly reflected.", "term": "Chlorophyll" },
+      { "question": "Which structures let gases enter and leave a leaf?", "answer": "Stomata", "distractors": ["Xylem vessels", "Root hairs", "Cuticle"], "explanation": "Stomata are pores controlled by guard cells.", "term": "Stomata" },
+      { "question": "What are stacks of thylakoids called?", "answer": "Grana", "distractors": ["Cristae", "Vacuoles", "Ribosomes"], "explanation": "A single stack is a granum.", "term": "Thylakoid" }
+    ],
+    "clozes": [
+      { "sentence": "Photosynthesis takes place inside organelles called ___.", "answer": "chloroplasts", "distractors": ["mitochondria", "ribosomes", "nuclei"], "term": "Chloroplast" },
+      { "sentence": "The green pigment ___ absorbs light energy.", "answer": "chlorophyll", "distractors": ["carotene", "keratin", "hemoglobin"], "term": "Chlorophyll" },
+      { "sentence": "Plants take in carbon dioxide through tiny pores called ___.", "answer": "stomata", "distractors": ["xylem", "roots", "cuticles"], "term": "Stomata" },
+      { "sentence": "Water molecules are split by light in a process called ___.", "answer": "photolysis", "distractors": ["hydrolysis", "glycolysis", "osmosis"], "term": "Photolysis" },
+      { "sentence": "In the Calvin cycle, the enzyme ___ fixes carbon dioxide.", "answer": "RuBisCO", "distractors": ["amylase", "lipase", "pepsin"], "term": "RuBisCO" },
+      { "sentence": "The light-dependent reactions happen in the ___ membranes.", "answer": "thylakoid", "distractors": ["mitochondrial", "nuclear", "plasma"], "term": "Thylakoid" },
+      { "sentence": "Photosynthesis stores light energy as chemical energy in ___.", "answer": "glucose", "distractors": ["oxygen", "water", "chlorophyll"], "term": "Glucose" },
+      { "sentence": "Oxygen is released as a ___ of photosynthesis.", "answer": "by-product", "distractors": ["reactant", "catalyst", "enzyme"], "term": "Oxygen" }
+    ],
+    "timelines": [
+      {
+        "title": "Path of energy through photosynthesis",
+        "steps": [
+          { "label": "Chlorophyll absorbs light" },
+          { "label": "Water is split, releasing oxygen" },
+          { "label": "Electrons move along the electron transport chain" },
+          { "label": "ATP and NADPH are produced" },
+          { "label": "RuBisCO fixes carbon dioxide" },
+          { "label": "Sugars such as glucose are built" }
+        ]
+      },
+      {
+        "title": "Discovering photosynthesis",
+        "steps": [
+          { "label": "Van Helmont's willow tree: mass doesn't come from soil", "detail": "1640s" },
+          { "label": "Priestley: plants restore air", "detail": "1771" },
+          { "label": "Ingenhousz: light is required", "detail": "1779" },
+          { "label": "De Saussure: water and CO2 add mass", "detail": "1804" },
+          { "label": "Calvin maps the carbon-fixing cycle", "detail": "1950s" }
+        ]
+      }
+    ],
+    "categories": [
+      { "name": "Inputs", "members": ["Carbon dioxide", "Water", "Light energy"] },
+      { "name": "Outputs", "members": ["Glucose", "Oxygen"] },
+      { "name": "Parts of a chloroplast", "members": ["Thylakoid", "Stroma", "Granum", "Outer membrane"] }
+    ],
+    "oddOneOut": [
+      { "items": ["Chlorophyll", "Carotene", "Xanthophyll", "Insulin"], "odd": "Insulin", "reason": "The others are photosynthetic pigments; insulin is a hormone." },
+      { "items": ["Thylakoid", "Stroma", "Granum", "Mitochondrion"], "odd": "Mitochondrion", "reason": "The others are parts of a chloroplast." },
+      { "items": ["Carbon dioxide", "Water", "Light", "Glucose"], "odd": "Glucose", "reason": "The others are inputs; glucose is a product." },
+      { "items": ["Algae", "Cyanobacteria", "Oak tree", "Mushroom"], "odd": "Mushroom", "reason": "Fungi such as mushrooms cannot photosynthesize." },
+      { "items": ["ATP", "NADPH", "Oxygen", "DNA"], "odd": "DNA", "reason": "The others are produced by the light-dependent reactions." },
+      { "items": ["Stomata", "Guard cells", "Leaf", "Root hair"], "odd": "Root hair", "reason": "The others take part in gas exchange; root hairs absorb water from the soil." }
+    ]
+  }
+}

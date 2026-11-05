@@ -1,0 +1,92 @@
+{
+  "topic": "Sistema solar",
+  "language": "es",
+  "sources": [
+    { "title": "Sistema solar", "url": "https://es.wikipedia.org/wiki/Sistema_solar", "kind": "Wikipedia" },
+    { "title": "Planeta", "url": "https://es.wikipedia.org/wiki/Planeta", "kind": "Wikipedia" }
+  ],
+  "content": {
+    "summary": "El sistema solar está formado por el Sol y todos los cuerpos que giran a su alrededor por efecto de la gravedad: ocho planetas, sus satélites, planetas enanos como Plutón, asteroides y cometas. Los cuatro planetas interiores son rocosos; Júpiter y Saturno son gigantes gaseosos, y Urano y Neptuno, gigantes helados.",
+    "concepts": [
+      { "term": "Sol", "definition": "Estrella situada en el centro del sistema solar que contiene más del 99 % de su masa.", "clue": "Estrella central del sistema" },
+      { "term": "Mercurio", "definition": "El planeta más pequeño y el más cercano al Sol.", "clue": "Planeta más cercano al Sol" },
+      { "term": "Venus", "definition": "Segundo planeta, el más caliente por su densa atmósfera de dióxido de carbono.", "clue": "Planeta más caliente" },
+      { "term": "Tierra", "definition": "Tercer planeta desde el Sol y el único donde se conoce vida.", "clue": "Tercer planeta, con vida" },
+      { "term": "Marte", "definition": "Cuarto planeta, llamado el planeta rojo por el óxido de hierro de su superficie.", "clue": "El planeta rojo" },
+      { "term": "Júpiter", "definition": "El planeta más grande, un gigante gaseoso con la Gran Mancha Roja.", "clue": "Gigante gaseoso más grande" },
+      { "term": "Saturno", "definition": "Gigante gaseoso famoso por su gran sistema de anillos.", "clue": "Planeta de los anillos" },
+      { "term": "Urano", "definition": "Gigante helado que gira casi tumbado sobre su costado.", "clue": "Gigante helado que rota de lado" },
+      { "term": "Neptuno", "definition": "El planeta más lejano del Sol, con los vientos más rápidos.", "clue": "Planeta más lejano" },
+      { "term": "Plutón", "definition": "Planeta enano del cinturón de Kuiper, reclasificado en 2006.", "clue": "Planeta enano desde 2006" },
+      { "term": "Cinturón de asteroides", "definition": "Región entre Marte y Júpiter donde orbitan millones de asteroides.", "clue": "Zona rocosa entre Marte y Júpiter" },
+      { "term": "Órbita", "definition": "Trayectoria curva que sigue un cuerpo alrededor de otro por efecto de la gravedad.", "clue": "Trayectoria alrededor de un astro" },
+      { "term": "Gravedad", "definition": "Fuerza de atracción que mantiene a los planetas girando alrededor del Sol.", "clue": "Fuerza que mantiene las órbitas" },
+      { "term": "Cometa", "definition": "Cuerpo helado que desarrolla una cola brillante al acercarse al Sol.", "clue": "Cuerpo helado con cola" },
+      { "term": "Luna", "definition": "El único satélite natural de la Tierra.", "clue": "Satélite natural de la Tierra" },
+      { "term": "Satélite", "definition": "Cuerpo que gira alrededor de un planeta.", "clue": "Cuerpo que orbita un planeta" },
+      { "term": "Heliocentrismo", "definition": "Modelo que sitúa al Sol en el centro, defendido por Nicolás Copérnico.", "clue": "Modelo con el Sol en el centro" }
+    ],
+    "facts": [
+      { "statement": "Júpiter es el planeta más grande del sistema solar.", "isTrue": true, "explanation": "Su masa es más del doble de la de todos los demás planetas juntos.", "term": "Júpiter" },
+      { "statement": "Mercurio es el planeta más caliente.", "isTrue": false, "explanation": "Venus es más caliente porque su atmósfera densa atrapa el calor.", "term": "Venus" },
+      { "statement": "Plutón fue reclasificado como planeta enano en 2006.", "isTrue": true, "explanation": "La Unión Astronómica Internacional cambió la definición de planeta.", "term": "Plutón" },
+      { "statement": "El cinturón de asteroides está entre la Tierra y Marte.", "isTrue": false, "explanation": "Está entre Marte y Júpiter.", "term": "Cinturón de asteroides" },
+      { "statement": "El Sol contiene más del 99 % de la masa del sistema solar.", "isTrue": true, "explanation": "Todo lo demás suma menos del 1 %.", "term": "Sol" },
+      { "statement": "Saturno es el único planeta con anillos.", "isTrue": false, "explanation": "Júpiter, Urano y Neptuno también tienen anillos, aunque más tenues.", "term": "Saturno" },
+      { "statement": "Urano gira casi de lado.", "isTrue": true, "explanation": "Su eje está inclinado unos 98 grados.", "term": "Urano" },
+      { "statement": "La Luna produce su propia luz.", "isTrue": false, "explanation": "Refleja la luz del Sol.", "term": "Luna" },
+      { "statement": "Marte debe su color rojo al óxido de hierro.", "isTrue": true, "explanation": "Su superficie está cubierta de polvo rico en óxido de hierro.", "term": "Marte" },
+      { "statement": "Neptuno es el planeta más cercano al Sol.", "isTrue": false, "explanation": "Mercurio es el más cercano; Neptuno es el más lejano.", "term": "Neptuno" }
+    ],
+    "questions": [
+      { "question": "¿Cuál es el planeta más grande del sistema solar?", "answer": "Júpiter", "distractors": ["Saturno", "Neptuno", "Tierra"], "explanation": "Júpiter es un gigante gaseoso enorme.", "term": "Júpiter" },
+      { "question": "¿Qué planeta es conocido como el planeta rojo?", "answer": "Marte", "distractors": ["Venus", "Mercurio", "Júpiter"], "explanation": "El óxido de hierro le da su color.", "term": "Marte" },
+      { "question": "¿Entre qué planetas está el cinturón de asteroides?", "answer": "Marte y Júpiter", "distractors": ["Tierra y Marte", "Júpiter y Saturno", "Venus y Tierra"], "explanation": "Separa los planetas rocosos de los gigantes.", "term": "Cinturón de asteroides" },
+      { "question": "¿Por qué Venus es el planeta más caliente?", "answer": "Por su densa atmósfera de dióxido de carbono", "distractors": ["Porque es el más cercano al Sol", "Porque no tiene atmósfera", "Porque gira muy rápido"], "explanation": "Su efecto invernadero atrapa el calor.", "term": "Venus" },
+      { "question": "¿Qué fuerza mantiene a los planetas en órbita alrededor del Sol?", "answer": "La gravedad", "distractors": ["El magnetismo", "La fricción", "El viento solar"], "explanation": "La gravedad del Sol curva sus trayectorias.", "term": "Gravedad" },
+      { "question": "¿En qué año Plutón pasó a ser planeta enano?", "answer": "2006", "distractors": ["1930", "1999", "2015"], "explanation": "Fue descubierto en 1930 y reclasificado en 2006.", "term": "Plutón" },
+      { "question": "¿Quién defendió el modelo heliocéntrico en el siglo XVI?", "answer": "Nicolás Copérnico", "distractors": ["Claudio Ptolomeo", "Aristóteles", "Isaac Newton"], "explanation": "Copérnico publicó su modelo en 1543.", "term": "Heliocentrismo" },
+      { "question": "¿Cuántos planetas tiene el sistema solar?", "answer": "Ocho", "distractors": ["Siete", "Nueve", "Diez"], "explanation": "Desde 2006 se cuentan ocho planetas.", "term": "Plutón" }
+    ],
+    "clozes": [
+      { "sentence": "El ___ contiene más del 99 % de la masa del sistema solar.", "answer": "Sol", "distractors": ["Júpiter", "Saturno", "Tierra"], "term": "Sol" },
+      { "sentence": "Saturno es famoso por su sistema de ___.", "answer": "anillos", "distractors": ["volcanes", "océanos", "cráteres"], "term": "Saturno" },
+      { "sentence": "La ___ es el único satélite natural de la Tierra.", "answer": "Luna", "distractors": ["Fobos", "Europa", "Titán"], "term": "Luna" },
+      { "sentence": "Los cometas desarrollan una ___ brillante al acercarse al Sol.", "answer": "cola", "distractors": ["anillo", "luna", "órbita"], "term": "Cometa" },
+      { "sentence": "Plutón es un planeta ___ del cinturón de Kuiper.", "answer": "enano", "distractors": ["gigante", "gaseoso", "doble"], "term": "Plutón" },
+      { "sentence": "Marte debe su color rojo al óxido de ___.", "answer": "hierro", "distractors": ["cobre", "aluminio", "carbono"], "term": "Marte" }
+    ],
+    "timelines": [
+      {
+        "title": "Planetas por distancia al Sol",
+        "steps": [
+          { "label": "Mercurio" }, { "label": "Venus" }, { "label": "Tierra" }, { "label": "Marte" },
+          { "label": "Júpiter" }, { "label": "Saturno" }, { "label": "Urano" }, { "label": "Neptuno" }
+        ]
+      },
+      {
+        "title": "Historia de la exploración",
+        "steps": [
+          { "label": "Copérnico publica el modelo heliocéntrico", "detail": "1543" },
+          { "label": "Galileo observa las lunas de Júpiter", "detail": "1610" },
+          { "label": "Herschel descubre Urano", "detail": "1781" },
+          { "label": "Se descubre Neptuno", "detail": "1846" },
+          { "label": "El ser humano llega a la Luna", "detail": "1969" },
+          { "label": "Plutón pasa a ser planeta enano", "detail": "2006" }
+        ]
+      }
+    ],
+    "categories": [
+      { "name": "Planetas rocosos", "members": ["Mercurio", "Venus", "Tierra", "Marte"] },
+      { "name": "Gigantes gaseosos", "members": ["Júpiter", "Saturno"] },
+      { "name": "Gigantes helados", "members": ["Urano", "Neptuno"] }
+    ],
+    "oddOneOut": [
+      { "items": ["Mercurio", "Venus", "Marte", "Júpiter"], "odd": "Júpiter", "reason": "Los demás son planetas rocosos; Júpiter es un gigante gaseoso." },
+      { "items": ["Plutón", "Ceres", "Eris", "Saturno"], "odd": "Saturno", "reason": "Los demás son planetas enanos." },
+      { "items": ["Luna", "Fobos", "Titán", "Sol"], "odd": "Sol", "reason": "Los demás son satélites naturales; el Sol es una estrella." },
+      { "items": ["Cometa", "Asteroide", "Meteoroide", "Galaxia"], "odd": "Galaxia", "reason": "Los demás son cuerpos pequeños del sistema solar." },
+      { "items": ["Copérnico", "Galileo", "Kepler", "Shakespeare"], "odd": "Shakespeare", "reason": "Los demás fueron astrónomos." }
+    ]
+  }
+}

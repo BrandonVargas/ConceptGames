@@ -1,0 +1,22 @@
+# Gradle / Kotlin
+.gradle/
+build/
+.kotlin/
+*.hprof
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local configuration & secrets (never commit)
+local.properties
+*.keystore
+*.jks
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.fleet/
+
+# macOS
+.DS_Store

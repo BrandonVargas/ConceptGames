@@ -1,0 +1,5 @@
+sdk.dir=/path/to/Android/sdk
+# Optional: prefill your own Gemini API key in debug builds (never commit this file).
+# gemini.apiKey=AIza...
+# Optional: use the local mock instead of Google (see tools/mock-gemini). Remove it to talk to the real API.
+# gemini.baseUrl=http://localhost:8787/v1beta

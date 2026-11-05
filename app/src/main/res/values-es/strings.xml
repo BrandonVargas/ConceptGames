@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common actions -->
+    <string name="action_back">Atrás</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_close">Cerrar</string>
+    <string name="action_continue">Continuar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_retry">Intentar de nuevo</string>
+    <string name="action_reveal">Muéstrame la respuesta</string>
+
+    <string name="difficulty_easy">Fácil</string>
+    <string name="difficulty_medium">Medio</string>
+    <string name="difficulty_hard">Difícil</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Aprende cualquier cosa jugando</string>
+    <string name="onboarding_subtitle">Escribe un tema. ConceptGames lo investiga en Wikipedia y en la web, y la IA Gemini de Google lo convierte en minijuegos.</string>
+    <string name="onboarding_feature_research">Investigación en Wikipedia y la web</string>
+    <string name="onboarding_feature_ai">La IA escribe preguntas, pistas y definiciones</string>
+    <string name="onboarding_feature_games">13 juegos: preguntas, cuerdas, crucigramas y más</string>
+    <string name="onboarding_feature_languages">Estudia en cualquier idioma de Wikipedia</string>
+    <string name="onboarding_set_up_key">Configurar mi clave de IA gratis</string>
+    <string name="onboarding_try_samples">Probar primero los juegos de ejemplo</string>
+
+    <!-- API key guide -->
+    <string name="key_guide_title">Tu clave de IA gratis</string>
+    <string name="key_intro_title">¿Por qué una clave?</string>
+    <string name="key_intro_body">ConceptGames usa la IA Gemini de Google para crear tus juegos. Gemini tiene un nivel gratuito: crea tu propia clave en unos dos minutos. No necesitas tarjeta de crédito y la clave se guarda cifrada solo en este teléfono.</string>
+    <string name="key_step_open_title">Abre Google AI Studio</string>
+    <string name="key_step_open_body">Inicia sesión con cualquier cuenta de Google.</string>
+    <string name="key_open_ai_studio">Abrir Google AI Studio</string>
+    <string name="key_step_create_title">Crea una clave de API</string>
+    <string name="key_step_create_body">Toca “Create API key” (Crear clave de API). Si te pide elegir un proyecto, el predeterminado sirve, o crea uno nuevo.</string>
+    <string name="key_step_copy_title">Copia la clave</string>
+    <string name="key_step_copy_body">Es un código largo que normalmente empieza con “AIza”. Usa el botón de copiar que está a su lado.</string>
+    <string name="key_step_paste_title">Pégala aquí</string>
+    <string name="key_step_paste_body">La comprobamos con Google antes de guardarla.</string>
+    <string name="key_field_label">Clave de API de Gemini</string>
+    <string name="key_show">Mostrar clave</string>
+    <string name="key_hide">Ocultar clave</string>
+    <string name="key_paste">Pegar</string>
+    <string name="key_test">Probar y guardar</string>
+    <string name="key_testing">Comprobando tu clave con Google…</string>
+    <string name="key_valid_title">¡Tu clave funciona!</string>
+    <plurals name="key_valid_body">
+        <item quantity="one">Ya está guardada. Tienes %1$d modelo disponible.</item>
+        <item quantity="many">Ya está guardada. Tienes %1$d modelos disponibles.</item>
+        <item quantity="other">Ya está guardada. Tienes %1$d modelos disponibles.</item>
+    </plurals>
+    <string name="key_done">Empezar a crear juegos</string>
+    <string name="key_remove">Eliminar la clave guardada</string>
+    <string name="key_tips_title">Conviene saber</string>
+    <string name="key_tip_private_title">Mantenla en privado</string>
+    <string name="key_tip_private_body">Cualquiera con tu clave puede usar tu cuota. No la compartas ni la publiques.</string>
+    <string name="key_tip_free_title">Quédate en el nivel gratuito</string>
+    <string name="key_tip_free_body">No actives la facturación del proyecto a menos que quieras pagar. Sin facturación, Google simplemente pausa las solicitudes al llegar al límite gratuito.</string>
+    <string name="key_tip_privacy_title">Qué se envía</string>
+    <string name="key_tip_privacy_body">Tu tema y el texto de Wikipedia se envían a la API de Gemini de Google. En el nivel gratuito Google puede usar estos datos para mejorar sus productos, así que no escribas información personal.</string>
+    <string name="key_tip_revoke_title">Revócala o cámbiala</string>
+    <string name="key_tip_revoke_body">Puedes borrar la clave en Google AI Studio cuando quieras y pegar una nueva aquí.</string>
+    <string name="key_tip_quota_title">¿“Cuota gratuita agotada”?</string>
+    <string name="key_tip_quota_body">Las claves gratuitas tienen límites por minuto y por día. Espera un poco o vuelve mañana. Los juegos que ya creaste siguen funcionando sin conexión.</string>
+    <string name="key_full_guide">Leer la guía completa con capturas</string>
+    <string name="key_guide_url">https://github.com/BrandonVargas/ConceptGames/blob/main/docs/API_KEY_GUIDE.es.md</string>
+
+    <!-- Home -->
+    <string name="home_prompt">¿Qué quieres aprender hoy?</string>
+    <string name="home_topic_placeholder">p. ej. Fotosíntesis, el Imperio romano…</string>
+    <string name="home_language">Idioma: %1$s</string>
+    <string name="home_find_sources">Buscar fuentes</string>
+    <string name="home_no_key">Agrega tu clave gratis de Gemini para crear juegos sobre cualquier tema. Los juegos de ejemplo funcionan sin ella.</string>
+    <string name="home_set_up_key">Configurar clave de IA</string>
+    <string name="home_suggestions">¿Necesitas una idea?</string>
+    <string name="home_library">Tu biblioteca</string>
+    <string name="home_library_empty">Aquí aparecerán los juegos que crees.</string>
+    <string name="home_sample">Ejemplo</string>
+    <plurals name="home_plays">
+        <item quantity="one">%1$d partida</item>
+        <item quantity="many">%1$d partidas</item>
+        <item quantity="other">%1$d partidas</item>
+    </plurals>
+    <string name="home_delete_title">¿Eliminar este tema?</string>
+    <string name="home_delete_body">“%1$s” y sus puntuaciones se borrarán de este teléfono.</string>
+    <string-array name="topic_suggestions">
+        <item>Fotosíntesis</item>
+        <item>Revolución francesa</item>
+        <item>Agujeros negros</item>
+        <item>Aprendizaje automático</item>
+        <item>El corazón humano</item>
+        <item>Antiguo Egipto</item>
+    </string-array>
+
+    <!-- Language sheet -->
+    <string name="language_title">Idioma del contenido</string>
+    <string name="language_subtitle">Las fuentes vienen de esta edición de Wikipedia y tus juegos se escriben en este idioma.</string>
+    <string name="language_search">Buscar idiomas</string>
+
+    <!-- Source picker -->
+    <string name="picker_title">Elige tus fuentes</string>
+    <string name="picker_help">Elige hasta %1$d artículos de Wikipedia. Los mejores resultados ya están seleccionados.</string>
+    <string name="picker_web_on">También se hará una búsqueda web (puedes desactivarla en Ajustes).</string>
+    <string name="picker_empty">No se encontraron artículos de Wikipedia. Prueba con otras palabras u otro idioma.</string>
+    <plurals name="picker_create">
+        <item quantity="one">Crear juegos (%1$d fuente)</item>
+        <item quantity="many">Crear juegos (%1$d fuentes)</item>
+        <item quantity="other">Crear juegos (%1$d fuentes)</item>
+    </plurals>
+
+    <!-- Generation -->
+    <string name="generate_title">Creando tus juegos</string>
+    <string name="generate_step_wikipedia">Leyendo Wikipedia</string>
+    <string name="generate_step_web">Buscando en la web</string>
+    <string name="generate_step_games">Escribiendo preguntas, pistas y acertijos</string>
+    <string name="generate_step_saving">Armando tus juegos</string>
+    <string name="generate_skipped">omitido</string>
+    <string name="generate_wait_hint">Puede tardar un minuto en el nivel gratuito. Si sales de esta pantalla, se detiene.</string>
+    <plurals name="generate_read_articles">
+        <item quantity="one">%1$d artículo · %2$s caracteres</item>
+        <item quantity="many">%1$d artículos · %2$s caracteres</item>
+        <item quantity="other">%1$d artículos · %2$s caracteres</item>
+    </plurals>
+    <plurals name="generate_web_pages">
+        <item quantity="one">%1$d página web encontrada</item>
+        <item quantity="many">%1$d páginas web encontradas</item>
+        <item quantity="other">%1$d páginas web encontradas</item>
+    </plurals>
+    <string name="generate_web_off">Desactivado en Ajustes.</string>
+    <string name="generate_web_not_free">Tu clave gratuita de Gemini no incluye la Búsqueda de Google, así que estos juegos usan solo Wikipedia.</string>
+    <string name="generate_web_quota">La cuota de la Búsqueda de Google se agotó por ahora, así que estos juegos usan solo Wikipedia.</string>
+    <string name="generate_web_model">Tu modelo de Gemini no puede buscar en la web, así que estos juegos usan solo Wikipedia.</string>
+    <string name="generate_web_offline">No se pudo conectar con la Búsqueda de Google, así que estos juegos usan solo Wikipedia.</string>
+    <string name="generate_web_failed">La Búsqueda de Google no respondió, así que estos juegos usan solo Wikipedia.</string>
+    <string name="generate_planning">Gemini está planeando tus juegos…</string>
+    <string name="generate_thinking">Pensando: %1$s</string>
+    <string name="generate_slow_hint">Sigue trabajando. En el nivel gratuito las respuestas pueden tardar uno o dos minutos.</string>
+    <string name="generate_waiting">Google pidió ir más despacio. Reintentando en %1$d s…</string>
+    <string name="generate_cancel_title">¿Dejar de crear los juegos?</string>
+    <string name="generate_cancel_body">Se cancelará la solicitud a Gemini y no se guardará nada.</string>
+    <string name="generate_cancel_confirm">Detener</string>
+    <string name="generate_keep_waiting">Seguir esperando</string>
+    <plurals name="progress_concepts">
+        <item quantity="one">%1$d concepto</item>
+        <item quantity="many">%1$d conceptos</item>
+        <item quantity="other">%1$d conceptos</item>
+    </plurals>
+    <plurals name="progress_facts">
+        <item quantity="one">%1$d afirmación</item>
+        <item quantity="many">%1$d afirmaciones</item>
+        <item quantity="other">%1$d afirmaciones</item>
+    </plurals>
+    <plurals name="progress_questions">
+        <item quantity="one">%1$d pregunta</item>
+        <item quantity="many">%1$d preguntas</item>
+        <item quantity="other">%1$d preguntas</item>
+    </plurals>
+    <plurals name="progress_sentences">
+        <item quantity="one">%1$d oración</item>
+        <item quantity="many">%1$d oraciones</item>
+        <item quantity="other">%1$d oraciones</item>
+    </plurals>
+    <plurals name="progress_sequences">
+        <item quantity="one">%1$d secuencia</item>
+        <item quantity="many">%1$d secuencias</item>
+        <item quantity="other">%1$d secuencias</item>
+    </plurals>
+    <plurals name="progress_groups">
+        <item quantity="one">%1$d grupo</item>
+        <item quantity="many">%1$d grupos</item>
+        <item quantity="other">%1$d grupos</item>
+    </plurals>
+    <plurals name="progress_odd_sets">
+        <item quantity="one">%1$d serie de intrusos</item>
+        <item quantity="many">%1$d series de intrusos</item>
+        <item quantity="other">%1$d series de intrusos</item>
+    </plurals>
+
+    <!-- Errors -->
+    <string name="error_fix_key">Arreglar mi clave de API</string>
+    <string name="error_missing_key_title">Aún no hay clave de API</string>
+    <string name="error_missing_key">Agrega tu clave gratis de Gemini para crear juegos nuevos.</string>
+    <string name="error_invalid_key_title">Esa clave no funciona</string>
+    <string name="error_invalid_key">Google rechazó la clave de API. Cópiala otra vez desde Google AI Studio y verifica que esté completa.</string>
+    <string name="error_api_disabled_title">La API de Gemini está desactivada</string>
+    <string name="error_api_disabled">La Generative Language API está desactivada en el proyecto de esta clave. Crea la clave en Google AI Studio, que la activa automáticamente.</string>
+    <string name="error_region_title">No disponible en tu región</string>
+    <string name="error_region">Google todavía no ofrece la API de Gemini en tu ubicación actual.</string>
+    <string name="error_quota_title">Cuota gratuita agotada</string>
+    <string name="error_quota">Llegaste al límite del nivel gratuito por ahora. Espera un minuto, inténtalo más tarde o elige otro modelo en Ajustes.</string>
+    <string name="error_not_free_title">No incluido en el nivel gratuito</string>
+    <string name="error_not_free">Este modelo de Gemini no está disponible con una clave gratuita. Elige otro modelo, como gemini-flash-latest, en Ajustes.</string>
+    <string name="error_model_title">Modelo no disponible</string>
+    <string name="error_model">El modelo de Gemini elegido no está disponible para tu clave. Elige otro en Ajustes.</string>
+    <string name="error_overloaded_title">Gemini está ocupado</string>
+    <string name="error_overloaded">Los servidores de Google están saturados en este momento. Inténtalo de nuevo en un rato.</string>
+    <string name="error_blocked_title">Tema bloqueado</string>
+    <string name="error_blocked">Gemini no quiso escribir sobre este tema. Prueba con otras palabras.</string>
+    <string name="error_network_title">Sin conexión</string>
+    <string name="error_network">Revisa tu conexión a internet e inténtalo de nuevo.</string>
+    <string name="error_invalid_pack_title">La respuesta de la IA quedó incompleta</string>
+    <string name="error_invalid_pack">Gemini no devolvió suficiente material útil. Inténtalo de nuevo o elige más fuentes.</string>
+    <string name="error_no_sources_title">Nada que leer</string>
+    <string name="error_no_sources">No se pudo leer ninguno de los artículos elegidos. Elige otras fuentes o activa la búsqueda web.</string>
+    <string name="error_generic_title">Algo salió mal</string>
+    <string name="error_generic">Inténtalo de nuevo.</string>
+
+    <!-- Study hub -->
+    <string name="hub_missing">Este tema ya no está disponible.</string>
+    <plurals name="hub_concepts_count">
+        <item quantity="one">%1$d concepto</item>
+        <item quantity="many">%1$d conceptos</item>
+        <item quantity="other">%1$d conceptos</item>
+    </plurals>
+    <string name="hub_mixed">Desafío mixto</string>
+    <string name="hub_mixed_desc">Cinco juegos distintos, uno tras otro</string>
+    <plurals name="hub_games">
+        <item quantity="one">%1$d juego listo</item>
+        <item quantity="many">%1$d juegos listos</item>
+        <item quantity="other">%1$d juegos listos</item>
+    </plurals>
+    <string name="hub_not_enough">No hay suficiente material sobre este tema para este juego.</string>
+    <string name="hub_study_concepts">Estudia los conceptos</string>
+    <string name="hub_sources">Fuentes</string>
+    <string name="hub_wikipedia_license">El texto de Wikipedia está disponible bajo la Licencia Creative Commons Atribución-CompartirIgual 4.0.</string>
+    <string name="hub_ai_disclaimer">Los juegos fueron generados por Google Gemini a partir de estas fuentes. La IA puede equivocarse: verifica lo importante.</string>
+
+    <!-- Games -->
+    <string name="game_multiple_choice">Tarjetas de preguntas</string>
+    <string name="game_multiple_choice_desc">Elige la respuesta correcta entre las opciones.</string>
+    <string name="game_rope_match">Une con cuerdas</string>
+    <string name="game_rope_match_desc">Ata cada término a su definición con una cuerda.</string>
+    <string name="game_word_scramble">Letras revueltas</string>
+    <string name="game_word_scramble_desc">Ordena las letras para formar el término.</string>
+    <string name="game_crossword">Crucigrama</string>
+    <string name="game_crossword_desc">Completa la cuadrícula con las pistas.</string>
+    <string name="game_flashcards">Tarjetas de memoria</string>
+    <string name="game_flashcards_desc">Voltea, recuerda y califícate.</string>
+    <string name="game_true_false">Verdadero o falso</string>
+    <string name="game_true_false_desc">Desliza a la derecha si es verdad, a la izquierda si es falso.</string>
+    <string name="game_fill_blank">Completa la frase</string>
+    <string name="game_fill_blank_desc">Completa cada oración con la palabra que falta.</string>
+    <string name="game_timeline">Ordénalo</string>
+    <string name="game_timeline_desc">Arrastra los pasos o eventos al orden correcto.</string>
+    <string name="game_word_search">Sopa de letras</string>
+    <string name="game_word_search_desc">Encuentra los términos escondidos en la cuadrícula.</string>
+    <string name="game_hangman">Revienta el globo</string>
+    <string name="game_hangman_desc">Adivina el término letra por letra antes de que el globo explote.</string>
+    <string name="game_memory">Memorama</string>
+    <string name="game_memory_desc">Voltea cartas para unir términos con sus pistas.</string>
+    <string name="game_categorize">Clasifica</string>
+    <string name="game_categorize_desc">Coloca cada elemento en el grupo correcto.</string>
+    <string name="game_odd_one_out">El intruso</string>
+    <string name="game_odd_one_out_desc">Encuentra el elemento que no pertenece.</string>
+
+    <string name="game_correct">¡Correcto!</string>
+    <string name="game_wrong">Casi</string>
+    <string name="mcq_which_term">¿Qué término corresponde a esta definición?</string>
+    <string name="tf_instructions">Desliza la tarjeta o usa los botones.</string>
+    <string name="tf_true">Verdadero</string>
+    <string name="tf_false">Falso</string>
+    <string name="tf_it_is_true">Es verdadero</string>
+    <string name="tf_it_is_false">Es falso</string>
+    <string name="flashcards_tap">Toca para voltear</string>
+    <string name="flashcards_learning">Aún aprendiendo</string>
+    <string name="flashcards_knew">Me lo sabía</string>
+    <string name="odd_instructions">¿Cuál no pertenece?</string>
+    <string name="odd_answer">El intruso es “%1$s”</string>
+    <string name="rope_instructions">Arrastra una cuerda de cada término a su definición, o toca un término y luego su definición.</string>
+    <string name="scramble_clue">Pista</string>
+    <string name="scramble_shuffle">Mezclar</string>
+    <string name="scramble_clear">Borrar</string>
+    <string name="hangman_clue">Pista</string>
+    <plurals name="hangman_lives">
+        <item quantity="one">Te queda %1$d intento</item>
+        <item quantity="many">Te quedan %1$d intentos</item>
+        <item quantity="other">Te quedan %1$d intentos</item>
+    </plurals>
+    <string name="hangman_won">¡Lo lograste! Era %1$s</string>
+    <string name="hangman_lost">¡Pum! Era %1$s</string>
+    <string name="memory_pairs">Parejas: %1$d / %2$d</string>
+    <string name="memory_moves">Movimientos: %1$d</string>
+    <string name="categorize_instructions">Arrastra la tarjeta a su grupo o toca el grupo.</string>
+    <string name="categorize_try_again">Ese grupo no es. Prueba con otro.</string>
+    <string name="timeline_instructions">Mantén presionado y arrastra, o usa las flechas, para ordenarlos.</string>
+    <string name="timeline_move_up">Subir</string>
+    <string name="timeline_move_down">Bajar</string>
+    <string name="timeline_check">Comprobar orden</string>
+    <string name="timeline_score">%1$d de %2$d en su lugar</string>
+    <string name="crossword_across">Horizontal</string>
+    <string name="crossword_down">Vertical</string>
+    <string name="crossword_check">Comprobar</string>
+    <string name="crossword_reveal">Revelar</string>
+    <string name="crossword_finish">Terminar</string>
+    <string name="crossword_erase">Borrar</string>
+    <string name="crossword_previous">Pista anterior</string>
+    <string name="crossword_next">Pista siguiente</string>
+    <string name="wordsearch_found">Encontradas %1$d de %2$d</string>
+    <string name="wordsearch_give_up">Mostrar las palabras restantes</string>
+
+    <!-- Play & results -->
+    <string name="play_quit_title">¿Salir de este juego?</string>
+    <string name="play_quit_body">No se guardará tu progreso en esta ronda.</string>
+    <string name="play_quit">Salir</string>
+    <string name="play_keep_playing">Seguir jugando</string>
+    <string name="play_next_up">A continuación</string>
+    <string name="play_next">Siguiente juego</string>
+    <string name="results_title">Resultados</string>
+    <string name="results_score">%1$d de %2$d correctas</string>
+    <string name="results_perfect">¡Perfecto!</string>
+    <string name="results_great">¡Muy bien!</string>
+    <string name="results_good">¡Buen intento!</string>
+    <string name="results_keep_going">¡Sigue practicando!</string>
+    <string name="results_review">Repasa estos conceptos</string>
+    <string name="results_play_again">Jugar otra vez</string>
+    <string name="results_back">Volver a los juegos</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_ai">IA</string>
+    <string name="settings_key_saved">Clave de API guardada</string>
+    <string name="settings_key_missing">Aún no hay clave de API</string>
+    <string name="settings_manage_key">Gestionar</string>
+    <string name="settings_key_help">Tu clave de Gemini está cifrada con el almacén de claves de este teléfono y solo se envía a Google.</string>
+    <string name="settings_model">Modelo de Gemini</string>
+    <string name="settings_model_help">“flash-latest” siempre apunta al modelo Flash gratuito más reciente de Google.</string>
+    <string name="settings_web_search">Buscar también en la web</string>
+    <string name="settings_web_search_desc">Agrega una búsqueda de Google además de Wikipedia. Google no incluye la búsqueda en el nivel gratuito de sus modelos más nuevos; si tu clave no puede usarla, los juegos se crean solo con Wikipedia.</string>
+    <string name="settings_default_difficulty">Dificultad</string>
+    <string name="settings_about">Acerca de</string>
+    <string name="settings_about_body">ConceptGames es gratis y de código abierto. Sin cuentas, sin anuncios y sin rastreo.</string>
+    <string name="settings_source_code">Código fuente en GitHub</string>
+    <string name="settings_privacy">Política de privacidad</string>
+    <string name="settings_version">Versión %1$s</string>
+</resources>
